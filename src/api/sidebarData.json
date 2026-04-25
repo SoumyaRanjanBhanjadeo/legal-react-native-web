@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Dashboard",
+    "route": "Dashboard",
+    "icon": "grid-outline"
+  },
+  {
+    "name": "Case",
+    "route": "Case",
+    "icon": "scale-outline",
+    "badge": 9
+  },
+  {
+    "name": "Calendar",
+    "route": "Calendar",
+    "icon": "calendar-outline"
+  },
+  {
+    "name": "Message",
+    "route": "Message",
+    "icon": "chatbox-outline",
+    "badge": 7,
+    "badgeColor": "bg-red-500/20 text-red-400"
+  },
+  {
+    "name": "Admin console",
+    "icon": "settings-outline",
+    "children": [
+      {
+        "name": "Role management",
+        "icon": "eye-outline",
+        "route": "AdminRoles"
+      },
+      {
+        "name": "Permission",
+        "icon": "lock-closed-outline",
+        "route": "AdminPermissions"
+      },
+      {
+        "name": "User management",
+        "icon": "people-outline",
+        "route": "AdminUsers"
+      }
+    ]
+  }
+]
